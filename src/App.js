@@ -7,10 +7,10 @@ function App() {
   function handleClick(value)  {
     setInput(input + value);
   };
-  function clearInput(value)  {
+  function clearInput()  {
     setInput("");
   };
-  function calculate(value)  {
+  function calculate()  {
     let output = eval(input)
     setInput(output);
   };
